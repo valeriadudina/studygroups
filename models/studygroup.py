@@ -2,7 +2,7 @@ from odoo import api, fields, models
 
 
 class StudyGroup(models.Model):
-    
+    _name=  "hr.studygroup"
     _order = "code, name"
 
     code = fields.Char()
